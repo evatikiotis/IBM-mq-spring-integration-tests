@@ -8,3 +8,7 @@ docker run --env LICENSE=accept --env MQ_QMGR_NAME=QM1 \
 
 ### to run the Integration tests run 
 mvn verify
+
+
+### The connection default conf
+cat /mnt/mqm/data/qmgrs/QM1/@ipcc/AMQCLCHL.TAB
