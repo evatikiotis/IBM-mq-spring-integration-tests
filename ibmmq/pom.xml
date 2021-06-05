@@ -83,12 +83,7 @@
                                     <port>1414:1414</port>
                                     <port>9443:9443</port>
                                 </ports>
-                                <wait>
-                                    <log>(?s)database system is ready to accept connections.*database system is ready to
-                                        accept connections
-                                    </log>
-                                    <time>20000</time>
-                                </wait>
+
                             </run>
                         </image>
                     </images>
