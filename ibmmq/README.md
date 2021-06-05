@@ -1,5 +1,15 @@
-docker run ‑‑env LICENSE=accept ‑‑env MQ_QMGR_NAME=QM1
-           ‑‑publish 1414:1414
-           ‑‑publish 9443:9443
-           ‑‑detach
+docker run --env LICENSE=accept --env MQ_QMGR_NAME=QM1 \
+           --publish 1414:1414 \
+           --publish 9443:9443 \
+           --detach \
            ibmcom/mq
+
+
+docker run --env LICENSE=accept ibmcom/mq
+
+
+
+
+
+
+docker run --env LICENSE=accept --env MQ_QMGR_NAME="mymq" ibmcom/mq
